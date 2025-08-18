@@ -14,7 +14,7 @@ import {
 
 export default function HeroSection() {
   return (
-    <div className="py-16 md:py-24 dark:bg-gray-950">
+    <div className="py-16 md:py-24 h-screen flex items-center">
       <div className="container mx-auto px-4 2xl:max-w-[1400px]">
         <div className="gap-12 md:grid md:grid-cols-12 lg:gap-16">
           <div className="flex flex-col items-center md:col-span-5 lg:col-span-4">
@@ -24,7 +24,7 @@ export default function HeroSection() {
                 fill
                 className="object-cover"
                 sizes="100vw"
-                src="/placeholder.svg"
+                src="https://cl0avqtjow.ufs.sh/f/Pb8WreYSaAY1zk1C7Kl71cegEhVdvs2zbmiROuPtH0UZJSaf"
               />
             </div>
             <div className="bg-muted/30 dark:bg-gray-900/50 dark:border-gray-800 w-full max-w-sm space-y-4 rounded-xl border p-6">
@@ -116,17 +116,13 @@ export default function HeroSection() {
             </h1>
             <div className="space-y-4 text-lg dark:text-gray-300">
               <p>
-                {`With 1+ years of experience building custom automation solutions, I help businesses streamline operations 
-              and eliminate manual processes through targeted development and integration work.`}
+                {`I build custom automation systems that cut manual work and make business processes run reliably. Over the past year, I've delivered solutions ranging from inventory dashboards handling thousands of records to AI-driven call flows that qualify HVAC leads in real time.`}
               </p>
               <p>
-                {`I specialize in connecting systems that don't naturally talk to each other - from inventory management 
-              dashboards handling thousands of records to AI-powered call systems that qualify leads automatically. 
-              My background spans web applications, CRM integrations, and workflow automation across various industries.`}
+                {`Most of my work centers on connecting tools that don’t natively integrate, bridging CRMs with messaging platforms, automating lead flows, and simplifying internal reporting.`}
               </p>
               <p>
-                {`I focus on practical solutions that work reliably and scale with your business needs. Ready to discuss 
-              how automation can solve your specific operational challenges? Let's connect and explore what's possible.`}
+                {`If you're looking to replace repetitive tasks with dependable automation, or want a second set of eyes on where to streamline, I’d be glad to walk through what’s possible.`}
               </p>
             </div>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -135,7 +131,7 @@ export default function HeroSection() {
                 className="dark:bg-primary dark:text-primary-foreground dark:hover:bg-primary/90"
               >
                 <a href="#contact">
-                  Get in Touch
+                  Start a Project
                   <ArrowRight className="h-4 w-4" />
                 </a>
               </Button>
